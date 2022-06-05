@@ -107,7 +107,6 @@ span {
     }
 
     main {
-        background-color: rgba(240, 248, 255, 0.212);
         width: 80vw;
     }
 }
@@ -116,18 +115,58 @@ span {
     :root {
         font-size: 42%;
     }
-
-    main {
-        background-color: rgba(240, 248, 255, 0.212);
-    }
 }
 
 @media (max-width: 705px) {
     :root {
         font-size: 30%;
     }
+}
+
+@media (max-width: 530px) {
+    img {
+        order: -1;
+        width: 100%;
+    }
 
     main {
-        background-color: rgba(240, 248, 255, 0.212);
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    .divisao-esquerda {
+        padding: 4.5rem 2.0rem 2.0rem 2.0rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3.4rem;
+        margin-bottom: 2.4rem;
+    }
+    
+    p {
+        width: 100%;
+        font-size: 1.7rem;
+        margin-bottom: 3.0rem;
+    }
+
+    .container-info {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .info {
+        margin: 1.5rem 0;
+    }
+
+    span {
+        font-size: 1.8rem;
+        margin-top: 0.9rem;
+    }
+
+    h2 {
+        font-size: 3.8rem;
     }
 }
